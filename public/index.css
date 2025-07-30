@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rancho&display=swap');
+body{
+    background-color: #ffd700;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.logo-container{
+    display: grid;
+    grid-template-rows: auto 150px 25px  ;
+    gap: 0px;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+img{
+    margin:0px;
+    height: 300px;
+}
+h1{
+   
+    font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top:-30px;
+  font-size: 150px;
+  color: #00809D;
+
+}
+p{
+    font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    margin: 0%;
+    padding: 0%;
+    font-size: 100%;
+    color: whitesmoke;
+    
+}
+
+.form {
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    margin-top: 0%;
+    font-size: 300%;
+    font-family: sans-serif;
+    color: #FCF8DD;
+}
+form{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    height: 60px;
+  font-family:  sans-serif; /* or any Google Font */
+  font-size: 50px;
+  margin:10px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 25vw;
+  background-color: #f9f9f9;
+}
+
+input[type="text"]::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+.placeholder{
+    display: flex;
+}
+
+button{
+    margin: 30px;
+    align-self: center;
+    height: 40px;
+    min-width:10vw ;
+    border-radius: 20px;
+    background-color: #00809D;
+    color: #FCF8DD;
+    font-weight: bold;
+    font-size: large;
+
+} 

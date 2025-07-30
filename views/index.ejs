@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="images/25727-Photoroom.png" alt="">
+        <h1>SunSafe</h1>
+        <p>KNOW IT BEFORE YOU GLOW</p>
+
+    </div>
+    <div class="form">
+        <%if(locals.currentAdvice){%>
+            <h2 style="text-align: center;"><%= currentAdvice %> <br> <%= message %></h2>
+            
+        
+        <% }else{ %>
+    
+        <h2>Enter your city name:</h2>
+        
+        <% } %>
+        <form action="/name" method="get">
+                <div class="placeholder">
+                <input type="text" id="name" name="name" placeholder="City" required>
+                <input type="text" id="country" name="country" placeholder="Country" required>
+                </div>
+                <button type="submit">Go</button>
+    </div>
+</body>
+</html>
